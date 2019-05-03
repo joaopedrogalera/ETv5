@@ -15,12 +15,12 @@ apt-get update
 # Instalar os programas:
 apt-get install -qyf rdesktop audacity owncloud-client owncloud-client-caja vim gthumb
 apt-get install -qyf ncdu sl ttf-mscorefonts-installer gedit
-apt-get install -qyf deadbeef vlc oracle-java8-installer openssh-server
+apt-get install -qyf deadbeef vlc openssh-server
 apt-get install -qyf firefox-esr firefox-esr-locale-pt numlockx
 apt-get install -qyf empathy telepathy-gabble mcp-account-manager-uoa unity-asset-pool
 apt-get install -qyf vino
 
-apt install -qyf oracle-java8-set-default
+#apt install -qyf oracle-java8-installer oracle-java8-set-default
 
 # Chrome, pq chrome é especial:
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
